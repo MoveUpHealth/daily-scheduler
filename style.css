@@ -4,14 +4,15 @@ body {
   line-height: 1;
 }
 
-textarea{
+textarea {
   background: transparent;
-  border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border: 1px solid black !important;
   padding: 10px;
-}
+  margin-top: -70px;
+  height: 80px !important;
+  }
 
 .jumbotron {
   text-align: center;
@@ -28,6 +29,7 @@ textarea{
 .time-block{
   text-align: center;
   border-radius: 15px;
+  margin-top: 40px;
 }
 
 .row {
@@ -58,6 +60,7 @@ textarea{
 }
 
 .saveBtn {
+  margin-top: 10px;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -68,4 +71,8 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.form-group label {
+  display: none;
 }
