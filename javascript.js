@@ -18,9 +18,9 @@ function displayDate(){
 function dsiplayHourly(){
     //loops through dayTimes array to display hour
     for (var i=0; i < dayTimes.length; i++){
-        var colTime = document.getElementsByClassName('time-block')
+        var colTime = document.getElementsByClassName('hour')
         colTime[i].innerHTML = dayTimes[i]
-        
+
         if(dayTimes[i].charAt(1) == ':'){
             var hours = dayTimes[i].charAt(0)
             
@@ -39,11 +39,11 @@ function dsiplayHourly(){
         var sameTime = dateFns.isSameHour(new Date(), dateFns.setHours(new Date (), hours))
         
          if(sameTime){
-            colTime[i].className = 'col present time-block'
+            colTime[i].className = 'present hour'
         } else if(hoursDifference >= 0){
-            colTime[i].className = 'col past time-block'}
+            colTime[i].className = 'past hour'}
             else {
-            colTime[i].className = 'col future time-block'
+            colTime[i].className = 'future hour'
         }
         }
     };
