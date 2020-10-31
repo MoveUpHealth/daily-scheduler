@@ -19,6 +19,7 @@ function dsiplayHourly(){
     //loops through dayTimes array to display hour
     for (var i=0; i < dayTimes.length; i++){
         var colTime = document.getElementsByClassName('hour')
+        var textBox = document.getElementsByClassName('description')
         colTime[i].innerHTML = dayTimes[i]
 
         if(dayTimes[i].charAt(1) == ':'){
