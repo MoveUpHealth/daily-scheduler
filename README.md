@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-Here is an image of the application:[work-day-scheduler]./screenshot.png
+Here is an image of the application:[work-day-scheduler](./screenshot.png)
 
 ##Description
 
