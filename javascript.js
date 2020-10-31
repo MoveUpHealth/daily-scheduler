@@ -1,6 +1,5 @@
 var textarea = $('.textarea')
 var saveBtn =$('.saveBtn')
-var scheduled = []
 var weekday = ['Sunday', 'Monday', 'Tuesday','Wednesday', 'Thursday', 'Friday', 'Saturday']
 var dayTimes = ['9:00 AM', '10:00 AM', '11:00 AM', '12:00 PM', '1:00 PM', '2:00 PM', '3:00 PM', '4:00 PM', '5:00 PM',]
 var currentDay = weekday[dateFns.getDay(new Date())]
